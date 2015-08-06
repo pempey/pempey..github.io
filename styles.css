@@ -84,8 +84,11 @@ body {
 	padding-bottom: 10px;
 	min-height: 14px;
 }
-#nav li a:hover,#nav li a:active,#nav li a:focus,#nav li a.thispage {
+#nav li a:hover,#nav li a:active,#nav li a:focus {
 	background-color: #57BD9F;	
+}
+#nav li a.thispage {
+	background-color: #42926D
 }
 br.clearLeft {
    clear: left;        
