@@ -28,6 +28,7 @@ body {
 #header {
 	background-color: #2484B9;
 	color: #FFF;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 #logo {
    font-size: 30px;  
@@ -38,6 +39,8 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #000000;
+	font-size: medium;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 #navWrap {
 	height: 30px;
@@ -71,6 +74,8 @@ body {
 	width: 33.3333%;
 	line-height: normal;
 	height: auto;
+	font-size: large;
+	font-weight: bold;
 }
 #wrap figure {
 	float: none;
@@ -94,12 +99,13 @@ body {
 	padding-bottom: 10px;
 	min-height: 14px;
 }
-#nav li a:hover,#nav li a:active,#nav li a:focus {
-	background-color: #57BD9F;	
-}
 #nav li a.thispage {
 	background-color: #42926D
 }
+#nav li a:hover,#nav li a:active,#nav li a:focus {
+	background-color: #57BD9F;	
+}
+
 br.clearLeft {
    clear: left;        
 }​
@@ -108,4 +114,62 @@ br.clearLeft {
 }
 .ProcessFlow {
 	width: 100%;
+	background-color: #D6DFE3;
+	background-image: -webkit-linear-gradient(270deg,rgba(190,213,225,1.00) 0%,rgba(230,236,238,0.83) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(190,213,225,1.00) 0%,rgba(230,236,238,0.83) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(190,213,225,1.00) 0%,rgba(230,236,238,0.83) 100%);
+	background-image: linear-gradient(180deg,rgba(190,213,225,1.00) 0%,rgba(230,236,238,0.83) 100%);
+}
+#wrap table {
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-left: 0px;
+	float: left;
+	width: auto;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+th {
+    background-color: #2484B9;
+    color: white;
+	text-align: left;
+}
+tbody tr td {
+	background-color: #CECECE;
+	color: #212C30;
+}
+.reference {
+}
+#wrap .reference {
+	font-size: 12pt;
+	color: rgb(0, 0, 0);
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	orphans: auto;
+	text-align: left;
+	text-transform: none;
+	white-space: normal;
+	widows: 1;
+	word-spacing: 0px;
+	-webkit-text-stroke-width: 0px;
+	text-indent: -0.5in;
+	margin-top: 7px;
+	margin-right: 5px;
+	margin-left: 0.5in;
+	margin-bottom: 10px;
+	line-height: 27.5pt;
+}
+#wrap .reference a {
+	text-decoration: none;
+	color: #506A72;
 }
