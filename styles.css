@@ -6,7 +6,7 @@ body {
 }
 #wrap {
 	margin: 10px auto;
-	background-color: #9C9C9C;
+	background-color: #CACACA;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-left: 0px;
@@ -36,11 +36,16 @@ body {
    padding: 5px;
 }
 #wrap p {
-	padding-left: 20px;
-	padding-right: 20px;
 	color: #000000;
-	font-size: medium;
+	font-size: large;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-left: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 20px;
+	margin-top: 15px;
+	line-height: 20px;
+	column-count: 2;
 }
 #navWrap {
 	height: 30px;
@@ -209,4 +214,12 @@ tbody tr td {
 	background-image: -moz-linear-gradient(270deg,rgba(204,221,240,1.00) 0%,rgba(238,247,255,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(204,221,240,1.00) 0%,rgba(238,247,255,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(204,221,240,1.00) 0%,rgba(238,247,255,1.00) 100%);
+}
+h2 {
+	color: #000000;
+	font-style: italic;
+	text-shadow: 0 0;
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: large;
 }
