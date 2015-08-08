@@ -28,7 +28,6 @@ body {
 #header {
 	background-color: #2484B9;
 	color: #FFF;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 #logo {
    font-size: 30px;  
@@ -38,7 +37,6 @@ body {
 #wrap p {
 	color: #000000;
 	font-size: large;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	margin-left: 20px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -86,9 +84,10 @@ body {
 	float: none;
 	clear: none;
 	width: auto;
-	vertical-align: middle;
 	padding-left: 0px;
 	left: auto;
+	height: auto;
+	vertical-align: baseline;
 }
 #wrap figuresmall {
 	float: none;
@@ -138,6 +137,9 @@ img.ProcessFlow {
 	padding-left: 0px;
 	float: left;
 	width: auto;
+	font-size: medium;
+	text-align: left;
+	background-color: #E9F2FD;
 }
 table {
     border-collapse: collapse;
@@ -155,10 +157,11 @@ th {
 	text-align: left;
 }
 tbody tr td {
-	background-color: #CECECE;
+	background-color: #F2F9FC;
 	color: #212C30;
 }
 .reference {
+	margin-left: 0px;
 }
 #wrap .reference {
 	font-size: 12pt;
@@ -177,9 +180,9 @@ tbody tr td {
 	text-indent: -0.5in;
 	margin-top: 7px;
 	margin-right: 5px;
-	margin-left: 0.5in;
 	margin-bottom: 10px;
 	line-height: 27.5pt;
+	margin-left: 74px;
 }
 #wrap .reference a {
 	text-decoration: none;
@@ -205,6 +208,8 @@ tbody tr td {
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 10px;
+	width: 35%;
+	height: 0%;
 }
 #wrap .ProcessFlow {
 	width: 800px;
