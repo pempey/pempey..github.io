@@ -85,6 +85,14 @@ body {
 	padding-left: 0px;
 	left: auto;
 }
+#wrap figuresmall {
+	float: none;
+	clear: none;
+	width: auto;
+	vertical-align: middle;
+	padding-left: 0px;
+	left: auto;
+}
 #nav li a {
 	color: #FFFFFF;
 	vertical-align: middle;
@@ -109,11 +117,10 @@ body {
 br.clearLeft {
    clear: left;        
 }​
-#wrap figure img {
-	width: 800px;
-}
-.ProcessFlow {
-	width: 100%;
+
+
+img.ProcessFlow {
+	width: 20%;
 	background-color: #D6DFE3;
 	background-image: -webkit-linear-gradient(270deg,rgba(190,213,225,1.00) 0%,rgba(230,236,238,0.83) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(190,213,225,1.00) 0%,rgba(230,236,238,0.83) 100%);
@@ -172,4 +179,34 @@ tbody tr td {
 #wrap .reference a {
 	text-decoration: none;
 	color: #506A72;
+}
+.medium {
+	border-top-right-radius: 0px;
+	background-color: #973738;
+	margin-right: 0px;
+	width: 20%;
+}
+.large {
+	width: 800px;
+}
+.floatRight {
+	margin-left: 20px;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.floatLeft {
+	margin-left: 20px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+#wrap .ProcessFlow {
+	width: 800px;
+	margin-left: 20px;
+	margin-right: 0px;
+	background-image: -webkit-linear-gradient(270deg,rgba(204,221,240,1.00) 0%,rgba(238,247,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(204,221,240,1.00) 0%,rgba(238,247,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(204,221,240,1.00) 0%,rgba(238,247,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(204,221,240,1.00) 0%,rgba(238,247,255,1.00) 100%);
 }
