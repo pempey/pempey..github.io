@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Business Model Analysis</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Process Modeling and Analysis</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li ><a href="introduction.html">Introduction</a></li>
+            
+            <li class="dropdown active">
+          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Analysis <span class="caret"></span></a>
+              <ul class="dropdown-menu inverse-dropdown">
+                <li > <a href="proposed-business-model.html">Proposed Business Model</a></li>
+                <li class="active"><a href="business-process-analysis.html">Business Process Analysis</a></li>
+                <li ><a href="pricing-analysis.html">Pricing Analysis</a></li>
+                
+              </ul>
+            </li>
+            
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="References.html">References</a></li>
+          	<li><a href="contributors.html">Contributors</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="page-header"> <!--  "starter-template" style="background-color:#CDCDCD"-->
+        <h1>Analyzing the Process</h1>
+        <p class="lead">Simply wanting a new process to be better does not make it so. <br> A detiald analysis and simulation addes credibility.</p>
+        
+        
+      </div>
+
+    </div><!-- /.container -->
+    
+	<div class="container">
+    
+   	  <div class="row">
+        	<div class="col-md-7 col-md-offset-0">
+            <h2>Simulation Set-up</h2>
+            	<p class="text-justify">Through the course of developing the proposed business model several forms of modeling and simulation were performed to refined the details of the business model.  One of these was a simulation of the process it self, and it was used to estimate staffing the requirements needed to reach the target of zero hold time for the calling customer.  The simulation was built as a discreet event system, advancing in time only when a task is complete or initiated, and using distributions for activity completion times.  These distributions were based on historical data and expert knowledge of the process making place.  This simulation setup allowed for repeated executions of various scenarios so that the aspects of the proposed business model, such as staffing requirements, could be identified with confidence and reflect the real world performance measures.</p>
+                <p class="text-justify">The simulation was executed for a duration of one year for each what-if scenario in order to produce an accurate estimate in light of the seasonality of the occurrence of service calls.  Variables were defined at the minute level when ever posable in order to accurately reflect the timescale in which events take place in the real process.  These variables were also defined as distributions of values so that the variability of the process could be reflected in the resulting performance measures. </p> 
+              
+<p class="text-justify">With in the simulation the process was simplified and equations and distributions were used to approximate the actions taking place within the process.  This allowed for a simpler simulation that was able to focus on the key points of the process; such as the time the caller is waiting on the line.  The simulation was calibrated with past performance to ensure that the simplifications made did not misrepresent the overall process and to give higher confidence in the final results.</p>
+
+    		</div>
+           <div class="col-md-12">
+           
+           	<p><img class="img-responsive" src="images/Process Simulation.svg" alt=""/></p>
+            
+            
+
+            
+           </div>
+        </div>
+        
+   	  <div class="row">
+   	    <div class="col-md-7">
+        <h2>Simulation Results</h2>
+        	
+<p class="text-justify">
+    The simulation generated several performance measures that were used to evaluated the success of each what-if scenario: Queue Time, Utilization, Flow Time, and Idle Time.  Each of these measures are key in the development of a balances process, but the main goal of the new process was to reduce the Queue Time to an almost zero value.  The equations used to approximate the processing time of the different steps showed combined the processing times of all of the staff involved in the process. This allowed for the changing of staff sizes in the central and regional customer service representatives as the regional staff endured a higher hold penalty within the process.  Through this process it was found that reducing the regional staff to zero and increasing the central staff reduced the Queue Time to an average of 45 seconds wile still maintaining a 85% Utilization of staff.  This was the most significant improvement over the 7 minute Queue Time and 55% Utilization of the current process.
+    </p>
+    <p class="text-justify">
+    This simulation did not identify how these new staffing numbers would be achieved, only that by using the values of the selected variables, that the performance metrics could be achieved.  The detailed of using the simulation results to develop the full bunnies process, as well as the full simulation results, can be found in the Business Model Simulation Report, TC-RPT-1000.
+    </p>
+    
+    
+        </div>
+   	    <div class="col-md-5">
+        
+        <h2><br></h2>
+   
+  
+        
+        
+        	
+    
+    
+        </div>
+      </div>
+        
+        <hr>
+
+      <footer>
+        <div class="row">
+        	<div class="col-md-3">
+            	<p>&copy; Peter Empey 2015</p>
+            </div>
+            <div class="col-md-3 col-md-offset-6">
+            	<p class="text-right">Full Sail University | BIN-630</p>
+            </div>
+            
+        </div>
+      </footer>
+    </div>
+
+        
+
+        
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
