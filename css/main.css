@@ -32,3 +32,30 @@ body {
     background-color: #000;
   }
   
+  .node {
+		cursor: pointer;
+	}
+
+	.node circle {
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 3px;
+	}
+
+	.node text {
+	  font: 12px sans-serif;
+	}
+	
+
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  
+	  shape-rendering: crispEdges;
+	}
+#container {
+    min-width: 300px;
+    max-width: 1000px;
+    height: 420px;
+    margin: 1em auto;
+}

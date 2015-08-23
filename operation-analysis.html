@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="images/Icon.ico">
 
-    <title>Projcect Site | Business Model Analysis</title>
+    <title>Project Site | Operation Analysis</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -50,9 +50,9 @@
           		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Analysis <span class="caret"></span></a>
               <ul class="dropdown-menu inverse-dropdown">
                 <li > <a href="proposed-business-model.html">Proposed Business Model</a></li>
-                <li class="active"><a href="business-process-analysis.html">Business Process Analysis</a></li>
+                <li ><a href="business-process-analysis.html">Business Process Analysis</a></li>
                 <li ><a href="pricing-analysis.html">Pricing Analysis</a></li>
-                <li ><a href="operation-analysis.html">Operation Analysis</a></li>
+                <li class="active"><a href="operation-analysis.html">Operation Analysis</a></li>
                 <li ><a href="decesion-analysis.html">Decesion Analysis</a></li>
                 
               </ul>
@@ -70,9 +70,9 @@
     <div class="container">
 
       <div class="page-header"> <!--  "starter-template" style="background-color:#CDCDCD"-->
-        <h1>Analyzing the Process</h1>
-        <p class="lead">Simply wanting a new process to be better does not make it so. <br> 
-        A detailed analysis and simulation adds credibility.</p>
+        <h1>The Operational Process</h1>
+        <p class="lead">The operation process is the map to reaching your destination. <br> 
+        If the map is ignored, it is very easy to get off track.</p>
         
         
       </div>
@@ -83,36 +83,32 @@
     
    	  <div class="row">
         	<div class="col-md-7 col-md-offset-0">
-            <h2>Simulation Set-up</h2>
-            	<p class="text-justify">Through the course of developing the <a href="proposed-business-model.html">proposed business model</a> several forms of modeling and simulations were performed to refine the details of the business model.  One of these was a simulation of the process itself, and it was used to estimate staffing the requirements needed to reach the target of zero hold time for the calling customer.  The simulation was built as a discreet event system, advancing in time only when a task is complete or initiated, and using distributions for activity completion times.  These distributions were based on historical data and expert knowledge of the process making place.  This simulation setup allowed for repeated executions of various scenarios so that the aspects of the proposed business model, such as staffing requirements, could be identified with confidence and reflect the real world performance measures.</p>
-                <p class="text-justify">The simulation was executed for a duration of one year for each what-if scenario in order to produce an accurate estimate in light of the seasonality of the occurrence of service calls.  Variables were defined at the minute level when ever possible in order to accurately reflect the timescale in which events take place in the real process.  These variables were also defined as distributions of values so that the variability of the process could be reflected in the resulting performance measures.</p> 
-              
-<p class="text-justify">Within the simulation the process was simplified and equations and distributions were used to approximate the actions taking place within the process.  This allowed for a simpler simulation that was able to focus on the key points of the process; such as the time the caller is waiting on the line.  The simulation was calibrated with past performance to ensure that the simplifications made did not misrepresent the overall process and to give higher confidence in the final results.
-</p>
+            <h2>Operation Analysis</h2>
+           	  <p class="text-justify">An overview of the operational process provides insight into the end goal of the proposed changes to the business process.  This operation provides the customer with a resolution to  a problem or fulfills a customer need,  most often in the form of a date on which additional services will be performed.  This process starts when the customer has a  need, the customer contacts The Company seeking resolution.  The Company receives that customer desire and transforms it to a scheduled time and date when the final resolution to the desire is fulfilled.  This small operation in The Company’s overall business is about providing a service to the customer and achieving the greatest amount of customer satisfaction in the short time the operations lasts.</p>
+                
+              <img class="img-responsive thumbnail" src="images/Operation Process.svg" alt=""/>
+              <p class="text-justify">The current procedures that govern the operation have been evaluated and found to be inadequate for the tasks the customer service representatives are performing on a day to day basis.  These procedures should be providing step by step instructions for taking calls and scheduling services, but they do not over all of the circumstances.  They do not direct the representatives to transfer the caller to Billing and Accounts when they with to discontinue service.  Instead it is up to the local ‘tribal knowledge’ that the call must be transferred.  This and other omissions and errors have come about over time when the process has changed without explicitly changing the procedures.</p>
+              <h2>A Word on Quality</h2>
+            <p class="text-justify">The Company strives to maintain efficient and effective operations.  Doing so requires continual improvement and evaluation of operational processes.  The current business process that manages the operational process has grown to be inefficient as the service area has grown in size.  This inefficiency has come, in part, by a lack of constant implementation of procedures at the different regional facilities.  With centralization of the customer service representatives new procedures will be developed that are easier to understand and work to. This will improve the implementation of the procedures and improve the efficiency of the overall operation aligning with The Company's goal of Total Quality Managment.</p>
 
-    		</div>
-           <div class="col-md-12">
-           
-           	<p><img class="img-responsive" src="images/Process Simulation.svg" alt=""/></p>
-            
-            
 
+
+   		</div>
+            </div>
+            <div class="row">
+            <div class="col-md-7">
             
-           </div>
+            
+            
+            </div>
         </div>
-        
    	  <div class="row">
    	    <div class="col-md-7">
-        <h2>Simulation Results</h2>
+        
         	
-<p class="text-justify">
-    The simulation generated several performance measures that were used to evaluate the success of each what-if scenario: Queue Time, Utilization, Flow Time, and Idle Time.  Each of these measures are key in the development of a balanced process, but the main goal of the new process was to reduce the Queue Time to an almost zero value.  The equations used to approximate the processing time of the different steps showed combined the processing times of all of the staff involved in the process. This allowed for the changing of staff sizes in the central and regional customer service representatives as the regional staff endured a higher hold penalty within the process.  Through this process it was found that reducing the regional staff to zero and increasing the central staff reduced the Queue Time to an average of 45 seconds while still maintaining a 85% Utilization of staff.  This was the most significant improvement over the 7 minute Queue Time and 55% Utilization of the current process. 
-    </p>
-    <p class="text-justify">
-    This simulation did not identify how these new staffing numbers would be achieved, only that by using the values of the selected variables the performance metrics could be achieved.  The details of using the simulation results to develop the full business process, as well as the full simulation results, can be found in the Business Model Simulation Report, TC-RPT-1000.
-    </p>
+
     
-    
+        
         </div>
    	    <div class="col-md-5">
         
@@ -151,7 +147,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-    
+    <script src="http://code.highcharts.com/stock/highstock.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/charts.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
