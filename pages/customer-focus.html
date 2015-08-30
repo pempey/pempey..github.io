@@ -71,9 +71,9 @@
     <div class="container">
 
       <div class="page-header"> <!--  "starter-template" style="background-color:#CDCDCD"-->
-        <h1>Making the Correct Decision</h1>
-        <p class="lead">Detailed analysis and careful consideration is key in decision making. <br> 
-        And decisions are the key to action.</p>
+        <h1>The Customer is the Key</h1>
+        <p class="lead">Continual improvement of the relationship with the customer is crucial. <br> 
+        Customers are the reason businesses succeed.</p>
         
         
         
@@ -87,22 +87,28 @@
    	  <div class="row">
         	<div class="col-md-7 col-md-offset-0">
             
+<h2>Continual Improvment</h2>
+<p class="text-justify">The proposed changes to the business model can not be effective without the customers that are calling in need of service.  This process is targeted at improving the customer satisfaction as a way to increase revenue and as such further details and decisions around ways to improve the impact of the change.  The process itself will improve the customer satisfaction through uniformity and continuity of service, but there are further refinements that can be had.   New training for the customer service representatives can further improve the likelihood of a high increase in customer satisfaction.</p>
 
-<p class="text-justify">Improved efficiency is going to be paramount in keeping costs manageable as the service area and customer base continues to grow.  Historically there has been a negative impact on customer satisfaction as new regions are opened for customer service and the satisfaction dose not always recover to its previous values over time.  If this trend were to continue then the cost of power that comes from consumer conservation would eventually reach prices similar to that of other power sources because it would require more spending to convince consumers to participate in conservation programs.  By centralizing and improving the process the trend can be revised and the customer satisfaction ratings can begin to increase, ultimately further reducing the spending required to convince consumers to participate in conservation programs.</p>
+<p class="text-justify">The choice of training is not without risk.  If a training class is selected there is a chance that it will have a negative impact on increasing the likelihood of an increase in customer satisfaction.  At present, there are two training classes available for the customer service representatives; Class A with a 0.6 probability of improving the likelihood from 50% to 70% or a 0.4 probability to decrease it to 45%, and Class B with a 0.8 probability of improving the likelihood to 60% or a 0.2 probability of decreasing it to 40%.  There also remains the choice to not do any training at all, allowing the original estimate of 50% stand.
+</p>
 
-<div id="trendChart" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
-
-<h2>Evaluation of the Options</h2>
-
-<p class="text-justify">The proposed changes to the business process is not the only option for improvement.  The scheduling of service request could be subcontracted out and therefore variableizing  the cost.  Costs associated with the turn over to a subcontractor are less than the upfront costs of changing the process within The Company, but the subcontractor process does not have as high an impact on customer satisfaction.  Evaluation of the different options and the probabilities of impact on customer satisfaction is used to evaluate the possible outcomes and value of each option.</p>
-
-	<div class="thumbnail"><div id="decesion-tree"></div>
-    	Hover over node for more information <br> Select node to expand/colaps childern
+<div class="thumbnail"><div id="decesion-risk-tree"></div>
+    	Hover over node for more information <br> 
+    	Select node to expand/collapse children
         
     </div>
-<p>
-  <button type="button" class="btn btn-link btn-xs" data-toggle="modal" data-target="#myModal">Click for Decision Tree Data</button></p>
+<!--p>
+  <button type="button" class="btn btn-link btn-xs" data-toggle="modal" data-target="#myModal">Click for Decision Tree Data</button></p-->
 
+
+<h2>Utility and Risk</h2>
+
+<p class="text-justify">With the success of the change on process depending on a significant improvement in the customer satisfaction rating The Company is averse to taking significant risk on decisions that will impact the rating.  Applying the aversion to risk as a measure of utility to the decision shows that one class, Class A has a negative utility indicating that it is too risky for The Company to select.  The other class, Class B does have a positive utility indicating that the level of risk is acceptable to The Company.  The option of providing no additional training is given utility of zero as it is already in place and has a known, and fixed, chance of success.  Given the positive utility from Class B, it is recommended that it be selected as a way to improve the customer satisfaction beyond that of the existing options.</p>
+
+<div id="utility" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+
+	
 
             	 
               
@@ -253,27 +259,7 @@
             
            </div>
       </div>
-   	  <div class="row">
-   	    <div class="col-md-7">
-        <h2>Decision Determination</h2>
-        	
-<p class="text-justify">Based upon the analysis performed on the options available the <a href="proposed-business-model.html">proposed business model</a> was recommended.   <a href="pricing-analysis.html">Dynamic simulation</a> showed that there is an approachable impact on revenue from the customer satisfaction rating, indicating that efforts to improve that rating will improve revenue for The Company.  <a href="business-process-analysis.html">Event simulation</a> was used to identify how best to maximize the customer satisfaction showing that decreasing time on calls has the most direct impact on the rating.  Analysis of the <a href="operation-analysis.html">operational process</a> identified what the operation needed to be focused on and where shortcomings in the existing implementation existed.  The costs were determined and a <a href="project-timeline.html">plan for implementation</a> was established that showed the costs over time and when benefit would be attained from the proposed change.  All of this information, along with probabilities of success, was compared against other alternatives in order to determine if it was the best path for improving the customer satisfaction and revenue.  This decision analysis identified that the proposed business model had the highest expected value and was selected by this project to be proposed and the choice that The Company should make.</p>
-    
-    
-    
-        </div>
-   	    <div class="col-md-5">
-        
-        <h2><br></h2>
-   
-  
-        
-        
-        	
-    
-    
-        </div>
-      </div>
+   	  
         
         <hr>
 
@@ -301,7 +287,8 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://code.highcharts.com/highcharts.js"></script>
-    <script src="../js/charts.js"></script>
+    
+    <script src="../js/risk-node.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
   </body>
